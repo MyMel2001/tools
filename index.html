@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Secure content vault with encrypted local storage">
-  <title>SecureVault</title>
+  <meta name="description" content="Secure productivity tools with encrypted local storage">
+  <title>NodeTools</title>
   
   <link rel="manifest" href="./manifest.json">
   <link rel="icon" href="./images/icons/favicon.ico" type="image/x-icon">
   <meta name="theme-color" content="#2c3e50">
-  <script type="module" crossorigin src="./assets/index-cd880ad5.js"></script>
-  <link rel="stylesheet" href="./assets/index-13e6aa1c.css">
+  <script type="module" crossorigin src="./assets/index-85963707.js"></script>
+  <link rel="stylesheet" href="./assets/index-6843987d.css">
 </head>
 <body>
   <div id="app">
     <!-- Auth Screen -->
     <div id="auth-screen" class="screen active">
       <div class="auth-container">
-        <h1>SecureVault</h1>
-        <p>Secure document editing with encrypted storage</p>
+        <h1>NodeTools</h1>
+        <p>Secure productivity and document editing</p>
         
         <div id="password-form">
           <div class="form-group">
@@ -46,13 +46,14 @@
     <div id="main-screen" class="screen">
       <header>
         <div class="logo">
-          <h1>SecureVault</h1>
+          <h1>NodeTools</h1>
         </div>
         <nav>
           <ul class="nav-tabs">
             <li data-section="docs" class="active">Docs</li>
             <li data-section="photos">Photos</li>
             <li data-section="files">Files</li>
+            <li data-section="calculator">Calculator</li>
           </ul>
         </nav>
         <div class="actions">
@@ -138,6 +139,11 @@
             </div>
             <div id="files-container" class="files-list"></div>
           </div>
+
+          <!-- Calculator Section -->
+          <div id="calculator-section" class="content-section">
+            <div id="calculator-container"></div>
+          </div>
         </section>
       </main>
     </div>
@@ -201,9 +207,9 @@
             </div>
           </div>
           <div class="settings-section">
-            <h3>About</h3>
-            <p>SecureVault v1.0.0</p>
-            <p>A secure content vault with encrypted local storage</p>
+            <h2>About</h2>
+            <p>NodeTools v1.1.0</p>
+            <p>A secure productivity suite with encrypted local storage</p>
           </div>
         </div>
       </div>

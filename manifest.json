@@ -1,7 +1,7 @@
 {
-    "name": "SecureVault - End-to-End Encryption",
-    "short_name": "SecVault",
-    "description": "Securely encrypt and decrypt your files with client-side encryption",
+    "name": "NodeTools - Productivity & Encryption",
+    "short_name": "NodeTools",
+    "description": "Securely encrypt files, manage documents, and use productivity tools",
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#ffffff",
